@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MuazBinShafi - Red Team Operator & Digital Artist</title>
+    
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    
+    <!-- External Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Particles Background -->
+    <div id="particles-js"></div>
+    
+    <!-- Scanline Animation -->
+    <div class="scanline"></div>
+    
+    <!-- Custom Cursor -->
+    <div class="cursor-dot"></div>
+    <div class="cursor-ring"></div>
+    
+    <!-- Navigation -->
+    <nav class="nav-desktop">
+        <a href="#home" class="nav-link active" data-section="home">//home</a>
+        <a href="#ops" class="nav-link" data-section="ops">//ops</a>
+        <a href="#art" class="nav-link" data-section="art">//art</a>
+        <a href="#skills" class="nav-link" data-section="skills">//skills</a>
+        <a href="#blog" class="nav-link" data-section="blog">//blog</a>
+        <a href="#contact" class="nav-link" data-section="contact">//contact</a>
+    </nav>
+    
+    <!-- Mobile Navigation -->
+    <nav class="nav-mobile">
+        <a href="#home" class="nav-link active" data-section="home">//home</a>
+        <a href="#ops" class="nav-link" data-section="ops">//ops</a>
+        <a href="#art" class="nav-link" data-section="art">//art</a>
+        <a href="#skills" class="nav-link" data-section="skills">//skills</a>
+        <a href="#blog" class="nav-link" data-section="blog">//blog</a>
+        <a href="#contact" class="nav-link" data-section="contact">//contact</a>
+    </nav>
+    
+    <!-- Main Container -->
+    <main class="container">
+        
+        <!-- HOME SECTION -->
+        <section id="home" class="page active">
+            <div class="page-content">
+                <div class="intro-container">
+                    <div class="terminal-header">
+                        <span class="terminal-dot red"></span>
+                        <span class="terminal-dot yellow"></span>
+                        <span class="terminal-dot green"></span>
+                    </div>
+                    <div class="intro-text">
+                        <div id="typed-intro"></div>
+                        <div class="status-line">
+                            <span class="status-indicator">●</span>
+                            <span class="status-text">SYSTEM READY</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- OPS SECTION -->
+        <section id="ops" class="page">
+            <div class="page-content">
+                <h1 class="page-title">// OPERATIONS</h1>
+                <div class="ops-grid">
+                    <div class="ops-card glitch-card">
+                        <div class="card-header">
+                            <span class="card-icon">🔍</span>
+                            <h3>Web App Pentesting</h3>
+                        </div>
+                        <p>Comprehensive security assessments of web applications, identifying vulnerabilities and providing detailed remediation strategies.</p>
+                    </div>
+                    
+                    <div class="ops-card glitch-card">
+                        <div class="card-header">
+                            <span class="card-icon">🌐</span>
+                            <h3>Network Audits</h3>
+                        </div>
+                        <p>Deep network infrastructure analysis, port scanning, and vulnerability assessment to secure your digital perimeter.</p>
+                    </div>
+                    
+                    <div class="ops-card glitch-card">
+                        <div class="card-header">
+                            <span class="card-icon">🎭</span>
+                            <h3>Social Engineering</h3>
+                        </div>
+                        <p>Human factor security testing through phishing simulations and social engineering awareness training.</p>
+                    </div>
+                </div>
+                
+                <div class="terminal-widget">
+                    <div class="terminal-header">
+                        <span class="terminal-dot red"></span>
+                        <span class="terminal-dot yellow"></span>
+                        <span class="terminal-dot green"></span>
+                        <span class="terminal-title">LIVE FINDINGS</span>
+                    </div>
+                    <div class="terminal-content">
+                        <div class="terminal-line" data-delay="0">[+] SQL Injection vulnerability detected in login form</div>
+                        <div class="terminal-line" data-delay="200">[+] XSS payload executed successfully</div>
+                        <div class="terminal-line" data-delay="400">[+] Directory traversal possible in file upload</div>
+                        <div class="terminal-line" data-delay="600">[!] Critical: Admin panel exposed without authentication</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- ART SECTION -->
+        <section id="art" class="page">
+            <div class="page-content">
+                <h1 class="page-title">// DIGITAL ART</h1>
+                <div class="art-stats">
+                    <div class="stat-item" data-delay="0">
+                        <span class="stat-number">12+</span>
+                        <span class="stat-label">Artworks</span>
+                    </div>
+                    <div class="stat-item" data-delay="100">
+                        <span class="stat-number">8</span>
+                        <span class="stat-label">WebGL Experiments</span>
+                    </div>
+                    <div class="stat-item" data-delay="200">
+                        <span class="stat-number">3</span>
+                        <span class="stat-label">Creative Tools</span>
+                    </div>
+                </div>
+                
+                <div class="art-description">
+                    <p>Where cybersecurity meets creative expression. My digital art explores the intersection of technology, security, and human perception through interactive installations and generative algorithms.</p>
+                </div>
+            </div>
+        </section>
+        
+        <!-- SKILLS SECTION -->
+        <section id="skills" class="page">
+            <div class="page-content">
+                <h1 class="page-title">// SKILL MATRIX</h1>
+                <div class="skills-grid">
+                    <div class="skill-category">
+                        <h3>Penetration Testing</h3>
+                        <div class="skill-tags">
+                            <span class="skill-tag">Web Pentesting</span>
+                            <span class="skill-tag">Burp Suite</span>
+                            <span class="skill-tag">Metasploit</span>
+                            <span class="skill-tag">Nmap</span>
+                            <span class="skill-tag">OWASP</span>
+                            <span class="skill-tag">Kali Linux</span>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-category">
+                        <h3>Development</h3>
+                        <div class="skill-tags">
+                            <span class="skill-tag">JavaScript</span>
+                            <span class="skill-tag">Python</span>
+                            <span class="skill-tag">React</span>
+                            <span class="skill-tag">Node.js</span>
+                            <span class="skill-tag">SQL</span>
+                            <span class="skill-tag">Bash</span>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-category">
+                        <h3>Creative Tech</h3>
+                        <div class="skill-tags">
+                            <span class="skill-tag">p5.js</span>
+                            <span class="skill-tag">WebGL</span>
+                            <span class="skill-tag">Three.js</span>
+                            <span class="skill-tag">Figma</span>
+                            <span class="skill-tag">Blender</span>
+                            <span class="skill-tag">Processing</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- BLOG SECTION -->
+        <section id="blog" class="page">
+            <div class="page-content">
+                <h1 class="page-title">// CYBER INSIGHTS</h1>
+                <div class="blog-grid">
+                    <article class="blog-card">
+                        <div class="blog-meta">
+                            <span class="blog-date">2024.03.15</span>
+                            <span class="blog-category">EXPLOIT</span>
+                        </div>
+                        <h3>RCE in SaaS: When Cloud Security Fails</h3>
+                        <p>Deep dive into a critical remote code execution vulnerability discovered in a major SaaS platform and the lessons learned from responsible disclosure.</p>
+                        <div class="blog-tags">
+                            <span class="tag">RCE</span>
+                            <span class="tag">Cloud Security</span>
+                            <span class="tag">Bug Bounty</span>
+                        </div>
+                    </article>
+                    
+                    <article class="blog-card">
+                        <div class="blog-meta">
+                            <span class="blog-date">2024.02.28</span>
+                            <span class="blog-category">METHODOLOGY</span>
+                        </div>
+                        <h3>Bug Bounty Failures: Learning from Rejection</h3>
+                        <p>An honest reflection on failed bug bounty submissions and how each rejection taught valuable lessons about vulnerability assessment and reporting.</p>
+                        <div class="blog-tags">
+                            <span class="tag">Bug Bounty</span>
+                            <span class="tag">Learning</span>
+                            <span class="tag">Methodology</span>
+                        </div>
+                    </article>
+                    
+                    <article class="blog-card">
+                        <div class="blog-meta">
+                            <span class="blog-date">2024.01.12</span>
+                            <span class="blog-category">PHILOSOPHY</span>
+                        </div>
+                        <h3>Art as a Weapon: Creative Approaches to Security</h3>
+                        <p>Exploring how creative thinking and artistic methodologies can enhance penetration testing and reveal unconventional attack vectors.</p>
+                        <div class="blog-tags">
+                            <span class="tag">Creative Security</span>
+                            <span class="tag">Art</span>
+                            <span class="tag">Innovation</span>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+        
+        <!-- CONTACT SECTION -->
+        <section id="contact" class="page">
+            <div class="page-content">
+                <h1 class="page-title">// RECRUIT THE GHOST</h1>
+                <div class="contact-container">
+                    <div class="contact-info">
+                        <p class="contact-description">Ready to secure your digital assets? Let's connect and discuss how I can help fortify your systems against emerging threats.</p>
+                        
+                        <div class="contact-links">
+                            <a href="mailto:muaz@example.com" class="contact-link">
+                                <span class="contact-icon">📧</span>
+                                <span>muaz@example.com</span>
+                            </a>
+                            
+                            <a href="https://linkedin.com/in/muazbinshafi" class="contact-link" target="_blank">
+                                <span class="contact-icon">💼</span>
+                                <span>LinkedIn</span>
+                            </a>
+                            
+                            <a href="https://github.com/muazbinshafi" class="contact-link" target="_blank">
+                                <span class="contact-icon">🔗</span>
+                                <span>GitHub</span>
+                            </a>
+                        </div>
+                        
+                        <div class="security-info">
+                            <div class="security-item">
+                                <span class="security-label">PGP:</span>
+                                <span class="security-status available">Available</span>
+                            </div>
+                            <div class="security-item">
+                                <span class="security-label">Signal:</span>
+                                <span class="security-status available">Available</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+    </main>
+    
+    <!-- Pulse Effect Container -->
+    <div class="pulse-effect"></div>
+    
+    <!-- Scripts -->
+    <script src="js/script.js"></script>
+</body>
+</html>
+
